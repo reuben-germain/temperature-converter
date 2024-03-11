@@ -5,5 +5,5 @@ function convertThat(){
     
     degree = degree * 1.8 + 32
 
-    console.log(degree);
+    document.querySelector('#result').innerText = degree
 }
