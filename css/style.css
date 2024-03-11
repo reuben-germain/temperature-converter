@@ -1,0 +1,11 @@
+body {
+    background-color: antiquewhite;
+}
+main {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin: 30px auto;
+    border: 3px solid burlywood;
+    border-radius: 10px;
+}
