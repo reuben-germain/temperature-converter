@@ -1,6 +1,9 @@
 document.querySelector("#convert").addEventListener('click', convertThat)
 
 function convertThat(){
-    const degree = document.querySelector('#temp').value
+    let degree = document.querySelector('#temp').value
+    
+    degree = degree * 1.8 + 32
+
     console.log(degree);
 }
